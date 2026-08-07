@@ -1,0 +1,104 @@
+.bus-list{
+
+    width:100%;
+    min-height:100vh;
+
+    background:#F8FAFC;
+
+    padding:50px 8%;
+}
+
+.bus-list h1{
+
+    text-align:center;
+
+    color:#2563EB;
+
+    margin-bottom:40px;
+}
+
+.bus-container{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+}
+
+.bus-card{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:30px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+}
+
+.bus-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+.bus-left h2{
+
+    color:#2563EB;
+
+    margin-bottom:10px;
+}
+
+.bus-left p{
+
+    margin:8px 0;
+}
+
+.bus-right{
+
+    text-align:center;
+}
+
+.bus-right h2{
+
+    color:#22C55E;
+}
+
+.bus-right h3{
+
+    color:#EF4444;
+
+    margin:15px 0;
+}
+
+.bus-right button{
+
+    padding:12px 25px;
+
+    background:#2563EB;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.bus-right button:hover{
+
+    background:#1D4ED8;
+}
