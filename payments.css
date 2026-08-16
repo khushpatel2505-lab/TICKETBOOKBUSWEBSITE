@@ -1,0 +1,356 @@
+/* ================= PAYMENT PAGE ================= */
+
+.payment-page{
+    width:100%;
+    min-height:100vh;
+    background:#F8FAFC;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+}
+
+.payment-container{
+    width:1000px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;/* ================= GOOGLE FONT ================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ================= PAYMENT PAGE ================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#F8FAFC;
+}
+
+.payment-page{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:60px 8%;
+}
+
+.payment-container{
+    width:100%;
+    max-width:1100px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:35px;
+}
+
+/* ================= LEFT CARD ================= */
+
+.summary-card{
+
+    background:#fff;
+
+    padding:35px;
+
+    border-radius:18px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:.3s;
+}
+
+.summary-card:hover{
+
+    transform:translateY(-5px);
+}
+
+.summary-card h2{
+
+    color:#2563EB;
+
+    margin-bottom:25px;
+
+    border-bottom:2px solid #E2E8F0;
+
+    padding-bottom:15px;
+}
+
+.summary-card p{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin:18px 0;
+
+    font-size:17px;
+
+    color:#334155;
+}
+
+.summary-card span{
+
+    color:#2563EB;
+
+    font-weight:600;
+}
+
+.total-box{
+
+    margin-top:30px;
+
+    background:#EFF6FF;
+
+    padding:18px;
+
+    border-radius:10px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    color:#2563EB;
+}
+
+/* ================= RIGHT CARD ================= */
+
+.payment-card{
+
+    background:#fff;
+
+    padding:35px;
+
+    border-radius:18px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:.3s;
+}
+
+.payment-card:hover{
+
+    transform:translateY(-5px);
+}
+
+.payment-card h2{
+
+    color:#2563EB;
+
+    margin-bottom:25px;
+
+    border-bottom:2px solid #E2E8F0;
+
+    padding-bottom:15px;
+}
+
+/* ================= PAYMENT OPTION ================= */
+
+.payment-option{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    padding:18px;
+
+    border:2px solid #E2E8F0;
+
+    border-radius:12px;
+
+    margin-bottom:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.payment-option:hover{
+
+    border-color:#2563EB;
+
+    background:#EFF6FF;
+}
+
+.payment-option input{
+
+    width:18px;
+
+    height:18px;
+
+    accent-color:#2563EB;
+}
+
+.payment-option span{
+
+    font-size:17px;
+
+    color:#1E293B;
+
+    font-weight:500;
+}
+
+/* ================= PAY BUTTON ================= */
+
+.pay-btn{
+
+    width:100%;
+
+    margin-top:25px;
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#22C55E;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.pay-btn:hover{
+
+    background:#16A34A;
+
+    transform:translateY(-3px);
+}
+
+/* ================= SECURITY BOX ================= */
+
+.security{
+
+    margin-top:25px;
+
+    text-align:center;
+
+    color:#64748B;
+
+    font-size:14px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:900px){
+
+    .payment-container{
+
+        grid-template-columns:1fr;
+    }
+
+}
+
+@media(max-width:600px){
+
+    .payment-page{
+
+        padding:30px 20px;
+    }
+
+    .summary-card,
+    .payment-card{
+
+        padding:25px;
+    }
+
+    .summary-card p{
+
+        font-size:15px;
+    }
+
+    .total-box{
+
+        font-size:18px;
+    }
+
+}
+}
+
+.summary-card,
+.payment-card{
+    background:#ffffff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.summary-card h2,
+.payment-card h2{
+    color:#2563EB;
+    margin-bottom:20px;
+}
+
+.summary-card p{
+    font-size:17px;
+    margin:15px 0;
+    color:#1E293B;
+}
+
+.summary-card span{
+    font-weight:bold;
+    color:#2563EB;
+}
+
+.payment-option{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:15px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    margin-bottom:15px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.payment-option:hover{
+    border-color:#2563EB;
+    background:#EFF6FF;
+}
+
+.payment-option input{
+    cursor:pointer;
+}
+
+.pay-btn{
+    width:100%;
+    padding:15px;
+    margin-top:20px;
+    background:#22C55E;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:17px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.pay-btn:hover{
+    background:#16A34A;
+}
+
+@media(max-width:768px){
+
+    .payment-container{
+
+        grid-template-columns:1fr;
+    }
+
+}

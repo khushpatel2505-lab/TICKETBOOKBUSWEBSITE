@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Details</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="payments.css">
+</head>
+<body>
+    <label class="payment-option">
+    <input type="radio" name="payment" value="UPI">
+    UPI
+</label>
+
+<label class="payment-option">
+    <input type="radio" name="payment" value="Credit Card">
+    Credit Card
+</label>
+
+<label class="payment-option">
+    <input type="radio" name="payment" value="Debit Card">
+    Debit Card
+</label>
+
+<label class="payment-option">
+    <input type="radio" name="payment" value="Net Banking">
+    Net Banking
+</label>
+
+<label class="payment-option">
+    <input type="radio" name="payment" value="Wallet">
+    Wallet
+</label>
+<button id="payBtn" class="pay-btn">
+        Pay Now
+    </button>
+<p><strong>Passenger:</strong> <span id="passengerName"></span></p>
+
+<p><strong>Seats:</strong> <span id="seatNumbers"></span></p>
+
+<p><strong>Total:</strong> <span id="totalAmount"></span></p>
+<script src="payment.js"></script>
+</body>
+</html>
