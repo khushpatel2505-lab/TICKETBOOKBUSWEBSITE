@@ -1,0 +1,106 @@
+/* ================= REGISTER PAGE ================= */
+
+.register{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#F8FAFC;
+    padding:40px 20px;
+}
+
+.register-box{
+    width:450px;
+    background:#fff;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+.register-box h1{
+    text-align:center;
+    color:#2563EB;
+    margin-bottom:10px;
+}
+
+.register-box p{
+    text-align:center;
+    color:#64748B;
+    margin-bottom:25px;
+}
+
+.input-box{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:18px;
+}
+
+.input-box label{
+    margin-bottom:8px;
+    font-weight:600;
+}
+
+.input-box input{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    outline:none;
+    font-size:15px;
+}
+
+.input-box input:focus{
+    border-color:#2563EB;
+}
+
+.terms{
+    margin:20px 0;
+    font-size:14px;
+}
+
+.register-btn{
+    width:100%;
+    padding:14px;
+    background:#2563EB;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.register-btn:hover{
+    background:#1D4ED8;
+}
+
+.divider{
+    text-align:center;
+    margin:25px 0;
+    color:#64748B;
+}
+
+.google-btn{
+    width:100%;
+    padding:14px;
+    background:#fff;
+    border:1px solid #ccc;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.google-btn:hover{
+    background:#F1F5F9;
+}
+
+.login-link{
+    margin-top:25px;
+    text-align:center;
+}
+
+.login-link a{
+    color:#2563EB;
+    text-decoration:none;
+    font-weight:600;
+}
