@@ -1,0 +1,138 @@
+.seat-page{
+
+    background:#F8FAFC;
+
+    min-height:100vh;
+
+    padding:40px;
+}
+
+.seat-page h1{
+
+    text-align:center;
+
+    color:#2563EB;
+
+    margin-bottom:40px;
+}
+
+.seat-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:50px;
+
+    flex-wrap:wrap;
+}
+
+.bus-layout{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.bus-layout h3{
+
+    text-align:center;
+
+    margin-bottom:25px;
+}
+
+.seat-grid{
+    display: grid;
+    grid-template-columns: 70px 70px 40px 70px 70px;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.seat{
+
+    width:70px;
+
+    height:70px;
+
+    background:#22C55E;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.seat:hover{
+
+    transform:scale(1.08);
+}
+
+.booked{
+
+    background:#EF4444;
+
+    cursor:not-allowed;
+}
+
+.selected{
+
+    background:#2563EB;
+}
+
+.summary{
+
+    width:300px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.summary h2{
+
+    color:#2563EB;
+
+    margin-bottom:20px;
+}
+
+.summary p{
+
+    margin:15px 0;
+}
+
+.summary button{
+
+    width:100%;
+
+    margin-top:25px;
+
+    padding:14px;
+
+    background:#2563EB;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+}
