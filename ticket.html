@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bus Ticket | BusGo</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="ticket.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+
+<body>
+
+<section class="ticket-page">
+
+    <div class="ticket-card">
+
+        <div class="ticket-header">
+
+            <h1>🚌 BUSGO TICKET</h1>
+
+            <p>Have a Safe Journey!</p>
+
+        </div>
+
+        <div class="ticket-body">
+
+            <div class="row">
+                <span>Booking ID</span>
+                <strong id="bookingId"></strong>
+            </div>
+
+            <div class="row">
+                <span>Passenger</span>
+                <strong id="passengerName"></strong>
+            </div>
+
+            <div class="row">
+                <span>Seats</span>
+                <strong id="seatNumbers"></strong>
+            </div>
+
+            <div class="row">
+                <span>Amount</span>
+                <strong id="amount"></strong>
+            </div>
+
+            <div class="row">
+                <span>Payment</span>
+                <strong id="paymentMethod"></strong>
+            </div>
+
+            <div class="row">
+                <span>Date</span>
+                <strong id="bookingDate"></strong>
+            </div>
+
+            <div class="row">
+                <span>Time</span>
+                <strong id="bookingTime"></strong>
+            </div>
+
+        </div>
+
+        <div class="status">
+
+            ✅ BOOKING CONFIRMED
+
+        </div>
+
+        <div class="qr">
+
+            <img src="QR (2).png" alt="QR Code">
+
+        </div>
+
+        <div class="buttons">
+
+            <button onclick="window.print()">
+                Print Ticket
+            </button>
+
+            <button onclick="location.href='index.html'">
+                Home
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script src="ticket.js"></script>
+
+</body>
+
+</html>
